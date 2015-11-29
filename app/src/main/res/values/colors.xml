@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="AppPrimary">#FF5722</color>
+    <color name="AppPrimaryDark">#D84315</color>
+    <color name="tabTextColor">#fff</color>
+    <color name="defaultDescColor">#666</color>
+    <color name="defaultTextColor">#000000</color>
+    <color name="defaultHintColor">#767676</color>
+</resources>

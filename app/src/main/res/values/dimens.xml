@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default Dimens -->
+    <dimen name="small_size">4dp</dimen>
+    <dimen name="half_size">8dp</dimen>
+    <dimen name="full_size">16dp</dimen>
+    <dimen name="large_size">24dp</dimen>
+    <dimen name="huge_size">40dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="text_size_default">14sp</dimen>
+    <dimen name="text_size_h2">16sp</dimen>
+    <dimen name="text_size_h1">18sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_edittext_default">14sp</dimen>
+    <dimen name="text_size_button_default">16dp</dimen>
+
+    <!-- Image Sizes -->
+    <dimen name="default_thumbnail_width">108dp</dimen>
+    <dimen name="default_thumbnail_height">72dp</dimen>
+    <dimen name="default_thumbnail_full_height">156dp</dimen>
+
+</resources>

@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/AppPrimary</item>
+        <item name="colorPrimaryDark">@color/AppPrimaryDark</item>
+        <item name="colorAccent">@color/AppPrimary</item>
+    </style>
+
+    <style name="AppThemeFullscreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorAccent">@color/AppPrimary</item>
+    </style>
+
+    <style name="Widget.MyApp.Toolbar.Solid" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/AppPrimary</item>
+        <item name="android:theme">@style/ThemeOverlay.MyApp.ActionBar</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/abc_action_bar_default_height_material</item>
+    </style>
+
+    <style name="ThemeOverlay.MyApp.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- Parent theme sets colorControlNormal to textColorPrimary. -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabPaddingStart">@dimen/half_size</item>
+        <item name="tabPaddingEnd">@dimen/half_size</item>
+        <item name="tabBackground">@color/AppPrimary</item>
+        <item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="InputDesignWrapperStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/half_size</item>
+    </style>
+
+    <style name="BaseEditText" parent="Base.V12.Widget.AppCompat.EditText">
+        <item name="android:maxLines">1</item>
+        <item name="android:textColorHint">@color/defaultHintColor</item>
+    </style>
+
+    <style name="EditTextStyle" parent="BaseEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_edittext_default</item>
+        <item name="android:maxLength">@integer/default_max_length</item>
+    </style>
+
+    <style name="DefaultTitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_h1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/AppPrimary</item>
+    </style>
+
+    <style name="BaseButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">@dimen/text_size_button_default</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="DefaultButton" parent="BaseButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/selector_button_default</item>
+    </style>
+
+</resources>
