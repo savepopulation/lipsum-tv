@@ -1,1 +1,11 @@
 # Created by .ignore support plugin (hsz.mobi)
+.idea
+.gradle
+gradle.properties
+gradlew.bat
+gradlew
+LipsumTv.iml
+local.properties
+/gradle
+/build
+.DS_Store
