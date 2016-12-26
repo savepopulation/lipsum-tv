@@ -14,7 +14,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import java.util.List;
 
 import tv.lipsum.app.R;
-import tv.lipsum.app.helper.NavitagionHelper;
+import tv.lipsum.app.helper.NavigationHelper;
 import tv.lipsum.app.parse.ParseVideo;
 
 /**
@@ -99,7 +99,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         @Override
         public void onClick(View view) {
             ParseVideo mVideo = mObjects.get(getPosition() - 1);
-            NavitagionHelper.navigateToVideoActivity(mContext, mVideo.getId());
+            NavigationHelper.navigateToVideoActivity(mContext, mVideo.getId());
         }
     }
 

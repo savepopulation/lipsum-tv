@@ -15,7 +15,7 @@ import java.util.List;
 import tv.lipsum.app.R;
 import tv.lipsum.app.adapter.TabsAdapter;
 import tv.lipsum.app.controller.CategoryControllerImp;
-import tv.lipsum.app.helper.NavitagionHelper;
+import tv.lipsum.app.helper.NavigationHelper;
 import tv.lipsum.app.interfaces.CategoryController;
 import tv.lipsum.app.interfaces.CategoryView;
 import tv.lipsum.app.parse.ParseCategory;
@@ -121,7 +121,7 @@ public class DashboardActivity extends BaseActivity implements CategoryView {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_settings:
-                NavitagionHelper.navigateToSettings(DashboardActivity.this);
+                NavigationHelper.navigateToSettings(DashboardActivity.this);
                 break;
 
             /*

@@ -10,8 +10,8 @@ import tv.lipsum.app.constants.ApplicationConstants;
 /**
  * Created by tyln on 26.10.2015.
  */
-public final class NavitagionHelper {
-    private NavitagionHelper() {
+public final class NavigationHelper {
+    private NavigationHelper() {
         // Empty private constructor.
     }
 
