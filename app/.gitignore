@@ -1,1 +1,7 @@
 /build
+/gradle
+/key
+app.iml
+fabric.properties
+lipsumtv-100.apk
+lipsumtv-101.apk

@@ -3,7 +3,10 @@ package tv.lipsum.app.constants;
 /**
  * Created by tyln on 25.10.2015.
  */
-public class ParseConstants {
+public final class ParseConstants {
+    private ParseConstants() {
+        // Empty private constructor.
+    }
 
     // STATIC PARSE OBJECT KEYS
     public static final String OBJECT_ID = "objectId";

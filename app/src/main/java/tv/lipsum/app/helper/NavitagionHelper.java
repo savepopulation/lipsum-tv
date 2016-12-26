@@ -10,7 +10,11 @@ import tv.lipsum.app.constants.ApplicationConstants;
 /**
  * Created by tyln on 26.10.2015.
  */
-public class NavitagionHelper {
+public final class NavitagionHelper {
+    private NavitagionHelper() {
+        // Empty private constructor.
+    }
+
     public static void navigateToSettings(Context context) {
         Intent mIntent = new Intent(context, SettingsActivity.class);
         context.startActivity(mIntent);

@@ -50,7 +50,7 @@ public class LipsumApp extends Application {
         ParseObject.registerSubclass(ParseVideo.class);
         ParseObject.registerSubclass(Suggestion.class);
         Parse.enableLocalDatastore(getApplicationContext());
-        Parse.initialize(this, "mCdb2nff8aFZKg74V3DiwSinXuVGOrUcSdJDwBTU", "LlQ0fAmjc23Csnv9O8k46DTYLcNWn07TjrbWbgT4");
+        Parse.initialize(this, "parce_key", "parse_key");
         ParseUser.enableAutomaticUser();
         ParseACL defaultACL = new ParseACL();
         ParseACL.setDefaultACL(defaultACL, true);

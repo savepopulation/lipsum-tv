@@ -2,6 +2,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
 
     <bool name="ga_autoActivityTracking">false</bool>
-    <string name="ga_trackingId">UA-55489246-4</string>
+    <string name="ga_trackingId">my_ga_trackering_id</string>
 
 </resources>

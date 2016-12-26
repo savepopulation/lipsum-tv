@@ -3,7 +3,11 @@ package tv.lipsum.app.constants;
 /**
  * Created by tyln on 19.10.2015.
  */
-public class ApplicationConstants {
+public final class ApplicationConstants {
+    private ApplicationConstants() {
+        // Empty private constructor
+    }
+
     public static final String MASTER_KEY = "l!pSuM.tV?";
     public static final String WEB_SITE = "http://www.lipsum.tv";
     public static final int NO_RES = -1;
@@ -12,7 +16,7 @@ public class ApplicationConstants {
     public static final String BUNDLE_ID = "id";
 
     // KEY
-    public static final String API_KEY_ANDROID = "AIzaSyBtU3tEYTN4cnkLllejrnwWiPo_bwHpXSg";
+    public static final String API_KEY_ANDROID = "my_api_key";
 
     // SHAREDPREF CONSTANTS
     public static final String COOKIE_ID = "fdf991d1e0c7cb893acaed33bbbbdb2d";

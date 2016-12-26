@@ -48,7 +48,7 @@
 
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="08d6f2b06fecbc9a81bc9a651fc2b1a0c8adbb68" />
+            android:value="my_fabric_key" />
 
         <service android:name="com.parse.PushService" />
         <receiver android:name="com.parse.ParsePushBroadcastReceiver"

@@ -8,7 +8,11 @@ import tv.lipsum.app.R;
 /**
  * Created by tyln on 28.10.2015.
  */
-public class Tools {
+public final class Tools {
+    private Tools() {
+        // Empty private constructor
+    }
+
     public static int getToolbarHeight(Context context) {
         // toolbar height+statusbar height
         int toolbarHeight = (int) context.getResources().getDimension(R.dimen.abc_action_bar_default_height_material);
