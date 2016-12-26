@@ -3,5 +3,7 @@ A Simple Youtube Client
 
 An Example Implementation of
 - MVC
-- Parse Client
+- Parse
 - Youtube Api
+
+Developed in 2015
